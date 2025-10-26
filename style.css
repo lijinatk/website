@@ -182,7 +182,6 @@ textarea {border-radius: 20px;resize: none;height: 150px;}
 
 
 @media (min-width: 324px) and (max-width: 575.98px){
-  .slider{padding-top: 94px;}
   .navbar-brand img{height: 60px !important;padding-top: 0;padding-bottom: 0;}
 .header li{font-size: 13px;}
 .header li{padding: 0 9px;}
@@ -272,7 +271,7 @@ textarea {border-radius: 20px;resize: none;height: 150px;}
 .header li{padding: 0 6px;}
 .navbar-nav a{margin-top: 0;padding-top: 0;margin-bottom: 0;padding-bottom: 5px;}
 .navbar-nav .active{margin-top: 0;padding-top: 0;margin-bottom: 0;padding-bottom: 5px;}
-.about-image{margin-bottom: 8px;padding-top: 35px;}
+.about-image{margin-bottom: 8px;padding-top: 0;}
 .about-text{padding: 15px 30px 0 17px;}
 .about-text p{margin-bottom: 30px;}
 .why p{padding-right: 8px;line-height: 30px;}
@@ -326,6 +325,7 @@ textarea {border-radius: 20px;resize: none;height: 150px;}
 }
 /* Group companies Responsive  */
 @media (min-width: 324px) and (max-width: 575.98px){
+.freight{padding-top: 0;}
 .navbar-nav a{margin-top: 0;padding-top: 0;margin-bottom: 0;padding-bottom: 5px;}
 .navbar-nav .active{margin-top: 0;padding-top: 0;margin-bottom: 0;padding-bottom: 5px;}
 .ocean{padding-top: 20px;}
@@ -336,6 +336,11 @@ textarea {border-radius: 20px;resize: none;height: 150px;}
 .warehousing-image{order: 1;}
 .customs-text{order: 2;}
 .customs-image{order: 1;}
+.freight h1{padding-right: 0;font-size: 30px;padding-top: 40px;}
+.transportation-text h1{padding-right: o;font-size: 30px;}
+.warehousing-text h1{padding-right: 0;font-size: 30px;}
+.supply-text h1{padding-right: 0;font-size: 30px;}
+.customs-text h1{font-size: 30px;padding-right: 0;}
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
 .ocean-text{order: 2;}
@@ -361,7 +366,7 @@ textarea {border-radius: 20px;resize: none;height: 150px;}
 .customs-image{order: 1;}
 .footer-logo img{width: 30%;margin-bottom: 50px;}
 .carousel-caption h2{font-size: 30px;}
-
+.footer-column h3{margin-top: 50px;}
 }
 @media (min-width:992px) and (max-width: 1199.98px) {
 .freight h1{padding-top: 0;margin-bottom: 0;}
@@ -380,6 +385,8 @@ textarea {border-radius: 20px;resize: none;height: 150px;}
 .customs-text h1{padding-top: 0;margin-bottom: 0;padding-right: 0;}
 .customs-text p{font-size: 15px;line-height: 25px;}
 .customs-image{padding-top: 50px;}
+.footer-column h3{margin-top: 50px;}
+
 }
 @media (min-width:1200px) and (max-width: 1399.98px){
 .freight h1{padding-top: 5px;}
